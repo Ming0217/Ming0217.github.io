@@ -8,7 +8,7 @@ comments: true
 ---
 
 <figure>
-        <a href="https://i.imgur.com/H2oaCk0.jpg"><img src="https://i.imgur.com/H2oaCk0.jpg"></a>
+        <a href="https://imgur.com/Qdhm2Dv"><img src="https://imgur.com/Qdhm2Dv"></a>
 </figure>
 
 ### Grove, A.S. (1995). *High Output Management*. New York, NY: Vintage Books.
