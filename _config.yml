@@ -4,7 +4,7 @@ bio:                'A place where I document my thoughts and reflections'
 description:        "The test of a first-rate intelligence is the ability to hold two opposed ideas in mind at the same time and still retain the ability to function."
 reading_time:       true
 words_per_minute:   200
-logo:               'assets/img/logo.jpg'
+logo:               'assets/img/logo.png'
 background:         'assets/img/background.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
