@@ -1,5 +1,5 @@
 # Ming0217.github.io
   
-## `My blog, where I document my thoughts and reflections.`
+## `My blog, a place where I document the evolution of my thoughts and actions.`
     
 
