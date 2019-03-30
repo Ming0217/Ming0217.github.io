@@ -11,7 +11,7 @@ comments: true
         <a href="https://i.imgur.com/Qdhm2Dv.jpg"><img src="https://i.imgur.com/Qdhm2Dv.jpg"></a>
 </figure>
 
-### Grove, A.S. (1995). *High Output Management*. New York, NY: Vintage Books.
+### Grove, A.S. (2015). *High Output Management*. New York, NY: Vintage Books.
 
 One thing I was especially impressed by Grove was his ability at abstracting complex, random or sometimes even chaotic human activities and turn them into the most fundamental principles that one can use to navigate those activities. This is likely why he is such a great teacher. In fact, as a guest lecture in one of the courses at Stanford Graduate School of Business from 1989 to 1991, his teaching was so well received by the students that <a href="https://hbr.org/2016/03/remembering-andy-grove-the-teacher"><b>the professor of the course worried that he might be out of his job if Grove continued to teach in his classroom</b></a> (Burgelman, 2016). Grove’s ability of abstracting is best demonstrated in the book when he described his philosophy of management through the following equation:
 
