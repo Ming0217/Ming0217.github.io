@@ -26,7 +26,7 @@ This is so true. There are so many people in this world who are way smarter than
 Doerr further drives this idea home by making the differences and connections between objective and key results more explicit (here I picked the OKR from Intuit as an example to demonstrate because I have a feeling that this might be something that we will be doing in the company as well sooner or later):
 
 <figure>
-        <a href=">https://i.imgur.com/eNV5lzd.png"<img src="https://i.imgur.com/eNV5lzd.png></a>
+        <a href=">https://i.imgur.com/eNV5lzd.png"><img src="https://i.imgur.com/eNV5lzd.png></a>
 </figure>
 
 **Differences**
