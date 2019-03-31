@@ -1,0 +1,20 @@
+---
+layout: post
+title: "Foreword"
+date: 9999-99-99
+excerpt: "The palest ink is better than the best memory"
+tags: [book reflection, reading, learning, evolution]
+feature: https://i.imgur.com/TJ1F09U.jpg
+comments: true
+---
+
+
+To me, reading is one of the most rewarding human activities. You take up a book and through the texts you immediately have access to how the author thinks and acts, regardless of time and space. However, working in a fast-paced tech environment has really slowed me down a lot for this important activity in the past few years. So I decided to approach it with more disciplines in 2018. 
+
+Meanwhile, I realized that my poor memory just can't keep up with all the ideas and insights that I gained from my reading. So I decided to write them down. This really serves as a rereading process for me and help me internalize what I read and think. And it solves the poor memory issue for me.
+
+Encouraged by <a href="https://briankeng.com/"><b>Brian</b></a>, one of my sources of inspiration and reinforced by <a href="https://www.ted.com/talks/ray_dalio_how_to_build_a_company_where_the_best_ideas_win?language=en"><b>Ray Dalio</b></a>'s idea of triangulating one's ideas with other people's feedback to limit thinking pitfalls, I decided to build a blog to document the evolution of my thinking and actions and share them with the wider public. 
+
+And lastly, I would like to thank the Github Pages feature and the open source community. Without them,  I won't be able to build this blog without knowing too much about all the web development languages and tools. And it is totally free. 
+
+
