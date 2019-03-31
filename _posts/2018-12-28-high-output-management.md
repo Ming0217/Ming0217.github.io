@@ -2,7 +2,7 @@
 layout: post
 title: "High Output Management"
 date: 2018-12-28
-excerpt: "A manager's output = the output of his organization + the output of his neighboring organizations under his influence"
+excerpt: "“A manager's output = the output of his organization + the output of his neighboring organizations under his influence”"
 tags: [book reflection, management, Andy Grove]
 comments: true
 ---
