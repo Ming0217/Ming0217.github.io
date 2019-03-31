@@ -8,7 +8,7 @@ comments: true
 ---
 
 <figure>
-        <a href=">https://i.imgur.com/zqVT5z9.jpg"<img src="https://i.imgur.com/zqVT5z9.jpg"></a>
+        <a href="https://i.imgur.com/zqVT5z9.jpg"><img src="https://i.imgur.com/zqVT5z9.jpg"></a>
 </figure>
 
 ### Holiday, R. (2016). *Ego Is The Enemy*. New York, NY: Portfolio.
