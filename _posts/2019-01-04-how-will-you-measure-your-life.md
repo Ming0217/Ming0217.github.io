@@ -2,7 +2,7 @@
 layout: post
 title: "How Will You Measure Your Life?"
 date: 2019-01-04
-excerpt: "Theories are statements of what causes things to happen, and why"
+excerpt: "“Theories are statements of what causes things to happen, and why”"
 tags: [book reflection, theory, disruptive innovation]
 comments: true
 ---
