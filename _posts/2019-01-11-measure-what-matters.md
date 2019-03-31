@@ -26,7 +26,7 @@ This is so true. There are so many people in this world who are way smarter than
 Doerr further drives this idea home by making the differences and connections between objective and key results more explicit (here I picked the OKR from Intuit as an example to demonstrate because I have a feeling that this might be something that we will be doing in the company as well sooner or later):
 
 <figure>
-        <a href=">https://i.imgur.com/eNV5lzd.png"><img src="https://i.imgur.com/eNV5lzd.png></a>
+        <a href=">https://i.imgur.com/eNV5lzd.png"><img src="https://i.imgur.com/eNV5lzd.png"></a>
 </figure>
 
 **Differences**
@@ -34,6 +34,7 @@ Doerr further drives this idea home by making the differences and connections be
 While objective is a high level statement of the vision (“Enable every Intuit workers to make decisions based on “live” data), key results has to be measurable: 
 
 ***“at the end you can look, and without any arguments: Did I do that or did I not do it? Yes? No? Simple. No judgements in it” (John Doerr)***
+
 ***“to be useful a key result must contain very specific wording and dates, so that when deadline time arrives, there is no room for ambiguity” (Andy Grove)***
 
 All the above four key results could be clearly answered in a binary format but then they lack a deadline, which makes it hard for people to understand whether they are on track or not from a schedule perspective.
@@ -54,4 +55,4 @@ While In general there are a lot more attention and literature around the power 
 CFR stands for conversation, feedback and recognition. In a nutshell, CFR is needed because it wraps OKR with humanity. Doerr describes it really well:
 
 
-***“What business leaders have learned, very painfully, is that individuals cannot be reduced to numbers. Even Peter Drucker, the champion of well-measured goals, understood the limits of calibration. A manager’s “first role,” Drucker said, “is the personal one. It’s the relationship with people, the development of mutual confidence . . . the creation of a community.” Or as Albert Einstein observed, “Not everything that can be counted counts, and not everything that counts can be counted”**
+***“What business leaders have learned, very painfully, is that individuals cannot be reduced to numbers. Even Peter Drucker, the champion of well-measured goals, understood the limits of calibration. A manager’s “first role,” Drucker said, “is the personal one. It’s the relationship with people, the development of mutual confidence . . . the creation of a community.” Or as Albert Einstein observed, “Not everything that can be counted counts, and not everything that counts can be counted”***
