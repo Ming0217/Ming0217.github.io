@@ -2,7 +2,7 @@
 layout: post
 title: "Ego Is The Enemy"
 date: 2019-01-07
-excerpt: "Think big, but live and act small."
+excerpt: "“Think big, but live and act small.”"
 tags: [book reflection, ego, Ryan Holiday, success]
 comments: true
 ---
