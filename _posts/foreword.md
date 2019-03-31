@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Foreword"
-date: 9999-99-99
+date: 
 excerpt: "The palest ink is better than the best memory"
 tags: [book reflection, reading, learning, evolution]
 feature: https://i.imgur.com/TJ1F09U.jpg
