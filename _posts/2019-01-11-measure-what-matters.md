@@ -20,7 +20,9 @@ Doerr is likely Andy Grove’s most loyal disciple, preaching Grove’s OKR mana
 This is so true. There are so many people in this world who are way smarter than us and have much better ideas than us. But it is the people who could well execute those ideas that eventually prevail and succeed. In *High Output Management*, Grove also briefly explained the concept of OKR, except that he called it MBO (Management by Objectives), an idea coined by Peter Drucker:
 
 ***“A successful MBO system needs only to answer two questions:***
+
 ***1.  Where do I want to go? (The answer provides the objective.)***
+
 ***2.  How will I pace myself to see if I am getting there? (The answer gives us milestones, or key results.)”***
 
 Doerr further drives this idea home by making the differences and connections between objective and key results more explicit (here I picked the OKR from Intuit as an example to demonstrate because I have a feeling that this might be something that we will be doing in the company as well sooner or later):
