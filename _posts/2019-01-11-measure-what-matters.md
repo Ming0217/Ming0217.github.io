@@ -17,7 +17,7 @@ Doerr is likely Andy Grove’s most loyal disciple, preaching Grove’s OKR mana
 
 ***“it almost doesn’t matter what you know, what matters is how you execute”***
 
-This is so true. There are so many people in this world who are way smarter than us and have much better ideas than us. But it is the people who could well execute those ideas that eventually prevail and succeed. In High Output Management, Grove also briefly explained the concept of OKR, except that he called it MBO (Management by Objectives), an idea coined by Peter Drucker:
+This is so true. There are so many people in this world who are way smarter than us and have much better ideas than us. But it is the people who could well execute those ideas that eventually prevail and succeed. In *High Output Management*, Grove also briefly explained the concept of OKR, except that he called it MBO (Management by Objectives), an idea coined by Peter Drucker:
 
 ***“A successful MBO system needs only to answer two questions:***
 ***1.  Where do I want to go? (The answer provides the objective.)***
