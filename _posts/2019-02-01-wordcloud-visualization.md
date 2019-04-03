@@ -10,6 +10,15 @@ tag:
 - visualization
 comments: true
 ---
+
+{% capture images %}
+
+        https://i.imgur.com/0BZG7TIm.png
+        https://i.imgur.com/D8O7HnOm.png
+	https://i.imgur.com/zz4B1Ohm.png
+
+{% endcapture %}
+{% include gallery images=images ccaption="Shakespeare's Sonnets" cols=3 %}
      
 Besides writing down the book reflections, I was wondering if there is anything else that I could do with the books that I read. The word cloud visualization for texts immediately popped into my mind. I tried a few online free tools but wasn't really happy with what I got, especially for the fact that I can't control what words to filter out. So I decided to do some research online and see if I could write my own script to generate the visualization. It turned out that it was not difficult at all because there is already an open source Python <a href="https://github.com/amueller/word_cloud"><b>library</b></a> available for generating word cloud, all I need to do is to understand its various APIs so that I could do my own customization. 
 
@@ -105,17 +114,6 @@ mycloud.recolor(color_func=color_func3)
 mycloud.to_file('Visualizations/shakespeares_sonnets1.png')
 
 {% endhighlight %}
-
-## Example
-
-Below are a few visualization that I did for Shakespeare's Sonnets:
-
-{% capture images %}
-        https://i.imgur.com/0BZG7TIm.png
-        https://i.imgur.com/D8O7HnOm.png
-	https://i.imgur.com/zz4B1Ohm.png
-{% endcapture %}
-{% include gallery images=images cols=3 %}
 
 You could also clone my repo and run the jupyter notebook with some existing color themes, images and fonts. If you find it useful, please also give the repo a star. Hope you enjoy it!
 
