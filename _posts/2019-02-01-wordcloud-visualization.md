@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "WordCloud Visualization for Books that I read"
+title:  "WordCloud Visualization for Books that I Read"
 date:   2019-02-01
 excerpt: "visualize the most frequent words used by the authors"
 project: true
