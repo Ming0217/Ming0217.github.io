@@ -17,10 +17,12 @@ Doerr is likely Andy Grove’s most loyal disciple, preaching Grove’s OKR mana
 
 ***“it almost doesn’t matter what you know, what matters is how you execute”***
 
-This is so true. There are so many people in this world who are way smarter than us and have much better ideas than us. But it is the people who could well execute those ideas that eventually prevail and succeed. In High Output Management, Grove also briefly explained the concept of OKR, except that he called it MBO (Management by Objectives), an idea coined by Peter Drucker:
+This is so true. There are so many people in this world who are way smarter than us and have much better ideas than us. But it is the people who could well execute those ideas that eventually prevail and succeed. In *High Output Management*, Grove also briefly explained the concept of OKR, except that he called it MBO (Management by Objectives), an idea coined by Peter Drucker:
 
 ***“A successful MBO system needs only to answer two questions:***
+
 ***1.  Where do I want to go? (The answer provides the objective.)***
+
 ***2.  How will I pace myself to see if I am getting there? (The answer gives us milestones, or key results.)”***
 
 Doerr further drives this idea home by making the differences and connections between objective and key results more explicit (here I picked the OKR from Intuit as an example to demonstrate because I have a feeling that this might be something that we will be doing in the company as well sooner or later):
@@ -41,7 +43,7 @@ All the above four key results could be clearly answered in a binary format but 
 
 **Connections**
 
-The successful completion of the key results guarantees the attainment of the objective. When those four key results are successfully completed, then workers in intuit would have both the technology and the skill sets to make decisions based on “live” data. Here is an example of wrong pairing of objectives and key results that I think of: let’s say our objective is to be the fastest running person in the world. Choosing the key result “running faster than Usain Bolt” would not guarantees the attainment of that objective because maybe you run faster than him when he’s not performing at his peak or when he is sick or when he is not running at his full speed, there are all these other uncertainties that could allow you to “run faster than Usain Bolt” but not becoming “the fastest running person in the world”. A better alternative for key result would be “run 100m in less than 9.58 seconds (the current world record for 100m).
+The successful completion of the key results guarantees the attainment of the objective. When those four key results are successfully completed, then workers in intuit would have both the technology and the skill sets to make decisions based on “live” data. Here is an example of wrong pairing of objectives and key results that I think of: let’s say our objective is to be the fastest running person in the world. Choosing the key result “running faster than Usain Bolt” would not guarantees the attainment of that objective because maybe you run faster than him when he’s not performing at his peak or when he is sick or when he is not running at his full speed, there are all these other uncertainties that could allow you to “run faster than Usain Bolt” but not becoming “the fastest running person in the world”. A better alternative for key result would be “run 100m in less than 9.58 seconds (the current world record for 100m)”.
 
 Similar to Doerr, another thing I really like is the explicit of the phrase “as measured by” introduced by Bill Davidow. By using this phrase, we could make our OKR in the following structure:
 
