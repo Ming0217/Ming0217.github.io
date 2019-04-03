@@ -13,9 +13,9 @@ comments: true
 
 {% capture images %}
 
-        https://i.imgur.com/0BZG7TIm.png
-        https://i.imgur.com/D8O7HnOm.png
-	https://i.imgur.com/zz4B1Ohm.png
+        https://i.imgur.com/0BZG7TIh.png
+        https://i.imgur.com/06Ky95Eh.png	
+        https://i.imgur.com/zz4B1Ohh.png
 
 {% endcapture %}
 {% include gallery images=images ccaption="Shakespeare's Sonnets" cols=3 %}
