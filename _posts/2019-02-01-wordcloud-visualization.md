@@ -18,7 +18,7 @@ comments: true
         https://i.imgur.com/zz4B1Ohh.png
 
 {% endcapture %}
-{% include gallery images=images caption="Visualizations on Shakespeare's Sonnets" cols=3 %}
+{% include gallery images=images caption="My Visualizations on Shakespeare's Sonnets" cols=3 %}
 
 ---
      
