@@ -54,7 +54,7 @@ This structure makes it easy for me to ensure the right pairing of objective and
 
 While In general there are a lot more attention and literature around the power of OKR, I would also like to ensure that we don’t miss the often forgotten younger sibling of OKR: CFR, which Doerr dedicates the second part of the book to. 
 
-CFR stands for conversation, feedback and recognition. In a nutshell, CFR is needed because it wraps OKR with humanity. Doerr describes it really well:
+CFR stands for **conversation, feedback and recognition**. In a nutshell, CFR is needed because it wraps OKR with humanity. Doerr describes it really well:
 
 
 ***“What business leaders have learned, very painfully, is that individuals cannot be reduced to numbers. Even Peter Drucker, the champion of well-measured goals, understood the limits of calibration. A manager’s “first role,” Drucker said, “is the personal one. It’s the relationship with people, the development of mutual confidence . . . the creation of a community.” Or as Albert Einstein observed, “Not everything that can be counted counts, and not everything that counts can be counted”***
