@@ -10,3 +10,10 @@ comments: false
 
 ***Privately, I try to*** `read` ***as much as I could; play*** `basektball`; ***follow*** `San Antonio Spurs` ***and*** `Shantou University Transformers Basketball Team`
 
+<canvas id="Skillset RadarChart" width="400" height="400"></canvas>
+
+var myRadarChart = new Chart(ctx, {
+    type: 'radar',
+    data: data,
+    options: options
+});
