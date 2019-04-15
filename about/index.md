@@ -10,80 +10,102 @@ comments: false
 
 ***Privately, I try to*** `read` ***as much as I could; play*** `basektball`; ***follow*** `San Antonio Spurs` ***and*** `Shantou University Transformers Basketball Team`
 
+<canvas id="radar-chart" width="700" height="450"></canvas>
 
-<html>
-<head>
-	<title>My first chart using FusionCharts Suite XT</title>
-	<style>
-	    @media (max-width: 500px) {
-	    body {
-		text-align: left;
-	    }
-	</style>
-	<script type="text/javascript" src="https://cdn.fusioncharts.com/fusioncharts/latest/fusioncharts.js"></script>
-	<script type="text/javascript" src="https://cdn.fusioncharts.com/fusioncharts/latest/themes/fusioncharts.theme.fusion.js"></script>
-	<script type="text/javascript">
-		FusionCharts.ready(function(){
-			var chartObj = new FusionCharts({
-    type: 'radar',
-    renderAt: 'chart-container',
-    width: '700',
-    height: '450',
-    dataFormat: 'json',
-    dataSource: {
-        "chart": {
-            "caption": "My Technical Skill Sets",
-            "numberPreffix": "$",
-            "theme": "fusion",
-            "radarfillcolor": "#f2efe8",
+<script>
+    var notations = {
+        0:"",
+        1:"no",
+        20:"Theory",
+        50:"proficient",
+        70:"Great",
+        90:"outstanding",
+            }
+
+    new Chart(document.getElementById("radar-chart"), {
+        type: 'radar',
+        
+        data: {
+            labels: ["GNU/Linux", "Android Development", "Core Java", "Frontend HTML/CSS", "UI / UX", "Blogging", "Database", "Javascript", "Windows", "CMS(Wordpress)"],
+            datasets: [{
+                label: "2017",
+                fill: true,
+                backgroundColor: "rgba(51,133,255,0.2)",
+                borderColor: "rgba(51,133,255,1)",
+                pointBorderColor: "#fff",
+                pointBackgroundColor: "rgba(51,133,255,1)",
+                data: [33, 49, 50, 67, 39, 80, 60, 50, 90,80]
+            }, {
+                label: "2018",
+                fill: true,
+                backgroundColor: "rgba(255,99,132,0.2)",
+                borderColor: "rgba(255,99,132,1)",
+                pointBorderColor: "#fff",
+                pointBackgroundColor: "rgba(255,99,132,1)",
+                pointBorderColor: "#fff",
+                data: [60, 67, 80, 68, 50, 90, 80, 60, 90,81]
+            }]
         },
-        "categories": [{
-            "category": [{
-                "label": "Python"
-            }, {
-                "label": "SQL"
-            }, {
-                "label": "JavaScript"
-            }, {
-                "label": "HTML"
-            }, {
-                "label": "CSS"
-            }, {
-                "label": "Linux"
-            }, {
-                "label": "Excel"
-            }, {
-                "label": "Spark"
-            }]
-        }],
-        "dataset": [{
-            "seriesname": "Proficiency",
-            "data": [{
-                "value": "4.0"
-            }, {
-                "value": "4.8"
-            }, {
-                "value": "3.0"
-            }, {
-                "value": "3.5"
-            }, {
-                "value": "3.3"
-            }, {
-                "value": "3.8"
-            }, {
-                "value": "4.9"
-            }, {
-                "value": "3.2"
-            }]
-        }]
-    }
-}
-);
-			chartObj.render();
-		});
-	</script>
-	</head>
-	<body>
-		<div id="chart-container">FusionCharts XT will load here!</div>
-	</body>
-</html>
+
+
+        options: {
+            scale: {
+                responsive: true,
+                ticks: {
+                    display: true,
+                    min:0,
+                    beginAtZero: true,
+                    max: 100, 
+                    userCallback: function (value, index, values) {
+                        if( typeof notations[value]!="undefined")
+                        {
+                             return notations[value];
+                         }
+                    else {
+                      return value;
+                           }
+
+                },
+                },
+
+                gridLines: {
+                    display: true,
+                    color: [
+                        "rgba(245, 245,220,1)",
+                        "rgba(0, 0,255,0.1)",
+                        "rgba(165, 42,42,0.1)",
+                        "rgba(0, 255,255,0.1)",
+                        "rgba(0, 0,139,0.3)",
+                        "rgba(0, 139,139,0.1)",
+                        "rgba(169, 169,169,1)",
+                        "rgba(0, 100,0,0.1)",
+                        "rgba(189, 22,107,0.1)",
+                        "rgba(139, 0,139,0.1)",
+                        "rgba(139, 0,139,0.1)",
+                        "rgba(139, 0,139,0.1)",
+
+
+                    ], 
+                },
+
+                angleLines: {
+                    display: true,
+                    color: "red",
+                },
+                pointLabels: {
+                    // callback: function(value, index, values) {
+                    //     return '$' + value;
+                    // }
+                    fontColor: '#' + Math.random().toString(16).slice(2, 8).toUpperCase(),
+                },
+            },
+            legend: {
+                display: true
+            },
+            title: {
+                display: false,
+                // text: 'Skill Set'
+            },
+        }
+    });
+</script>
