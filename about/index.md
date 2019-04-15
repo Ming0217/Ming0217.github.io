@@ -10,11 +10,14 @@ comments: false
 
 ***Privately, I try to*** `read` ***as much as I could; play*** `basektball`; ***follow*** `San Antonio Spurs` ***and*** `Shantou University Transformers Basketball Team`
 
-### My Skill Sets
 
 <html>
 <head>
 	<title>My first chart using FusionCharts Suite XT</title>
+	<style>
+	    body {
+		margin: 0 auto;
+	    }
 	<script type="text/javascript" src="https://cdn.fusioncharts.com/fusioncharts/latest/fusioncharts.js"></script>
 	<script type="text/javascript" src="https://cdn.fusioncharts.com/fusioncharts/latest/themes/fusioncharts.theme.fusion.js"></script>
 	<script type="text/javascript">
@@ -27,7 +30,7 @@ comments: false
     dataFormat: 'json',
     dataSource: {
         "chart": {
-            "caption": "Store rating across parameters",
+            "caption": "My Technical Skill Sets",
             "subCaption": "Based on customer feedback survey",
             "numberPreffix": "$",
             "theme": "fusion",
@@ -35,29 +38,37 @@ comments: false
         },
         "categories": [{
             "category": [{
-                "label": "Ambience"
+                "label": "Python"
             }, {
-                "label": "Product Assortment"
+                "label": "SQL"
             }, {
-                "label": "Price Competitiveness"
+                "label": "JavaScript"
             }, {
-                "label": "Service"
+                "label": "HTML"
             }, {
-                "label": "Recommend to others"
+                "label": "CSS"
+            }, {
+                "label": "Linux"
+            }, {
+                "label": "Excel"
             }]
         }],
         "dataset": [{
-            "seriesname": "User Ratings",
+            "seriesname": "Proficiency",
             "data": [{
-                "value": "3.5"
+                "value": "4.0"
             }, {
                 "value": "4.8"
             }, {
-                "value": "3.1"
+                "value": "3.0"
             }, {
-                "value": "4.0"
+                "value": "3.5"
             }, {
-                "value": "3.6"
+                "value": "3.3"
+            }, {
+                "value": "3.8"
+            }, {
+                "value": "4.9"
             }]
         }]
     }
