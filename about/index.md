@@ -12,8 +12,10 @@ comments: false
 
 <canvas id="Skillset RadarChart" width="400" height="400"></canvas>
 
+<script>
 var myRadarChart = new Chart(ctx, {
     type: 'radar',
     data: data,
     options: options
 });
+</script>
