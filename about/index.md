@@ -28,8 +28,8 @@ comments: false
 			var chartObj = new FusionCharts({
     type: 'radar',
     renderAt: 'chart-container',
-    width: '550',
-    height: '250',
+    width: '600',
+    height: '350',
     dataFormat: 'json',
     dataSource: {
         "chart": {
