@@ -17,7 +17,6 @@ comments: false
 	<style>
 	    body {
 		text-align: justify;
-		background: yellow;
 	    }
 	</style>
 	<script type="text/javascript" src="https://cdn.fusioncharts.com/fusioncharts/latest/fusioncharts.js"></script>
@@ -35,7 +34,7 @@ comments: false
             "caption": "My Technical Skill Sets",
             "numberPreffix": "$",
             "theme": "fusion",
-            "radarfillcolor": "#ffffff",
+            "radarfillcolor": "#3b3a36",
         },
         "categories": [{
             "category": [{
