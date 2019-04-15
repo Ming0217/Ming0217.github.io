@@ -26,8 +26,8 @@ comments: false
 			var chartObj = new FusionCharts({
     type: 'radar',
     renderAt: 'chart-container',
-    width: '700',
-    height: '450',
+    width: '650',
+    height: '400',
     dataFormat: 'json',
     dataSource: {
         "chart": {
