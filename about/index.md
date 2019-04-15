@@ -15,8 +15,9 @@ comments: false
 <head>
 	<title>My first chart using FusionCharts Suite XT</title>
 	<style>
+	    @media (max-width: 500px) {
 	    body {
-		margin: 0 auto;
+		text-align: left;
 	    }
 	</style>
 	<script type="text/javascript" src="https://cdn.fusioncharts.com/fusioncharts/latest/fusioncharts.js"></script>
