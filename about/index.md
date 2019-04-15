@@ -13,11 +13,61 @@ comments: false
 ### My Skill Sets
 
 <html>
-	<head>
-		<script src= "https://cdn.zingchart.com/zingchart.min.js"></script>
-		<script> zingchart.MODULESDIR = "https://cdn.zingchart.com/modules/";
-		ZC.LICENSE = ["569d52cefae586f634c54f86dc99e6a9","ee6b7db5b51705a13dc2339db3edaf6d"];</script></head>
+<head>
+	<title>My first chart using FusionCharts Suite XT</title>
+	<script type="text/javascript" src="https://cdn.fusioncharts.com/fusioncharts/latest/fusioncharts.js"></script>
+	<script type="text/javascript" src="https://cdn.fusioncharts.com/fusioncharts/latest/themes/fusioncharts.theme.fusion.js"></script>
+	<script type="text/javascript">
+		FusionCharts.ready(function(){
+			var chartObj = new FusionCharts({
+    type: 'radar',
+    renderAt: 'chart-container',
+    width: '600',
+    height: '350',
+    dataFormat: 'json',
+    dataSource: {
+        "chart": {
+            "caption": "Store rating across parameters",
+            "subCaption": "Based on customer feedback survey",
+            "numberPreffix": "$",
+            "theme": "fusion",
+            "radarfillcolor": "#ffffff",
+        },
+        "categories": [{
+            "category": [{
+                "label": "Ambience"
+            }, {
+                "label": "Product Assortment"
+            }, {
+                "label": "Price Competitiveness"
+            }, {
+                "label": "Service"
+            }, {
+                "label": "Recommend to others"
+            }]
+        }],
+        "dataset": [{
+            "seriesname": "User Ratings",
+            "data": [{
+                "value": "3.5"
+            }, {
+                "value": "4.8"
+            }, {
+                "value": "3.1"
+            }, {
+                "value": "4.0"
+            }, {
+                "value": "3.6"
+            }]
+        }]
+    }
+}
+);
+			chartObj.render();
+		});
+	</script>
+	</head>
 	<body>
-		<div id='myChart'><a class="zc-ref" href="https://www.zingchart.com/">Powered by ZingChart</a></div>
+		<div id="chart-container">FusionCharts XT will load here!</div>
 	</body>
 </html>
