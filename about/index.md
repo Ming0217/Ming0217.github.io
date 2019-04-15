@@ -12,66 +12,12 @@ comments: false
 
 ### My Skill Sets
 
-```chart
-{
-  "type": "radar",
-  "data1": {
-    "labels": [
-      "Python",
-      "SQL",
-      "JavaScript",
-      "HTML",
-      "CSS",
-      "Linux",
-      "Excel"
-    ],
-  "data2": {
-    "labels": [
-      "Product Design",
-      "Data Pipeline (ETL)",
-      "Data Analysis",
-      "Business Analysis",
-      "Market Research",
-      "Machine Learning"
-    ],
-    "datasets": [
-      {
-        "label": "Technical",
-        "backgroundColor": "rgba(0,0,0,0.8)",
-        "borderColor": "rgba(179,181,198,1)",
-        "pointBackgroundColor": "rgba(179,181,198,1)",
-        "pointBorderColor": "#fff",
-        "pointHoverBackgroundColor": "#fff",
-        "pointHoverBorderColor": "rgba(179,181,198,1)",
-        "data1": [
-          80,
-          90,
-          60,
-          65,
-          65,
-          75,
-          95
-        ]
-      },
-      {
-        "label": "Experiences",
-        "backgroundColor": "rgba(255,99,132,0.2)",
-        "borderColor": "rgba(255,99,132,1)",
-        "pointBackgroundColor": "rgba(255,99,132,1)",
-        "pointBorderColor": "#fff",
-        "pointHoverBackgroundColor": "#fff",
-        "pointHoverBorderColor": "rgba(255,99,132,1)",
-        "data2": [
-          40,
-          85,
-          80,
-          90,
-          95,
-          40
-        ]
-      }
-    ]
-  },
-  "options": {}
-}
-```
+<html>
+	<head>
+		<script src= "https://cdn.zingchart.com/zingchart.min.js"></script>
+		<script> zingchart.MODULESDIR = "https://cdn.zingchart.com/modules/";
+		ZC.LICENSE = ["569d52cefae586f634c54f86dc99e6a9","ee6b7db5b51705a13dc2339db3edaf6d"];</script></head>
+	<body>
+		<div id='myChart'><a class="zc-ref" href="https://www.zingchart.com/">Powered by ZingChart</a></div>
+	</body>
+</html>
