@@ -10,8 +10,7 @@ comments: false
 
 ***Privately, I try to*** `read` ***as much as I could; play*** `basektball`; ***follow*** `San Antonio Spurs` ***and*** `Shantou University Transformers Basketball Team`
 
-<canvas id="radar-chart" width="700" height="450"></canvas>
-
+<canvas id="radar-chart" width="600" height="800"></canvas>
 <script>
     var notations = {
         0:"",
