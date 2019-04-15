@@ -14,11 +14,13 @@ comments: false
 <html>
 <head>
 	<title>My first chart using FusionCharts Suite XT</title>
+	/*
 	<style>
 	    body {
 		text-align: justify;
 	    }
 	</style>
+	*/
 	<script type="text/javascript" src="https://cdn.fusioncharts.com/fusioncharts/latest/fusioncharts.js"></script>
 	<script type="text/javascript" src="https://cdn.fusioncharts.com/fusioncharts/latest/themes/fusioncharts.theme.fusion.js"></script>
 	<script type="text/javascript">
