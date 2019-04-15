@@ -17,6 +17,7 @@ comments: false
 	<style>
 	    body {
 		margin: 0 auto;
+		text-align: center;
 	    }
 	</style>
 	<script type="text/javascript" src="https://cdn.fusioncharts.com/fusioncharts/latest/fusioncharts.js"></script>
@@ -26,13 +27,12 @@ comments: false
 			var chartObj = new FusionCharts({
     type: 'radar',
     renderAt: 'chart-container',
-    width: '600',
-    height: '350',
+    width: '800',
+    height: '450',
     dataFormat: 'json',
     dataSource: {
         "chart": {
             "caption": "My Technical Skill Sets",
-            "subCaption": "Based on customer feedback survey",
             "numberPreffix": "$",
             "theme": "fusion",
             "radarfillcolor": "#ffffff",
