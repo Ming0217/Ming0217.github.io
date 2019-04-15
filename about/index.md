@@ -17,6 +17,7 @@ comments: false
 	<style>
 	    body {
 		text-align: justify;
+		background: yellow;
 	    }
 	</style>
 	<script type="text/javascript" src="https://cdn.fusioncharts.com/fusioncharts/latest/fusioncharts.js"></script>
