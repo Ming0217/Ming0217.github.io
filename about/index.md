@@ -34,7 +34,7 @@ comments: false
             "caption": "My Technical Skill Sets",
             "numberPreffix": "$",
             "theme": "fusion",
-            "radarfillcolor": "#3b3a36",
+            "radarfillcolor": "#f2efe8",
         },
         "categories": [{
             "category": [{
