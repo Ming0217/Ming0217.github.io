@@ -16,7 +16,6 @@ comments: false
 	<title>My first chart using FusionCharts Suite XT</title>
 	<style>
 	    body {
-		margin: 0 auto;
 		text-align: center;
 	    }
 	</style>
@@ -27,7 +26,7 @@ comments: false
 			var chartObj = new FusionCharts({
     type: 'radar',
     renderAt: 'chart-container',
-    width: '800',
+    width: '750',
     height: '450',
     dataFormat: 'json',
     dataSource: {
