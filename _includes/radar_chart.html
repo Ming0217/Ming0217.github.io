@@ -12,16 +12,14 @@
 
     <script>
     var ctx = document.getElementById("myChart").getContext('2d');
-    ctx.fillStyle = "#22264b";
-    ctx.fillRect(0,0,500,500);
     var data = {
         labels: "Python, SQL, HTML, JavaScript, CSS, Linux/Shell, Spark, Excel".split(","),
         datasets: [{
             label: "Proficiency",
-            backgroundColor: "rgba(1,1,1,0.6)",
-            borderColor: "#3fb0ac",
-            pointBackgroundColor: "#22264b",
-            pointBorderColor: "#3fb0ac",
+            backgroundColor: "rgba(255,215,0,0.3)",
+            borderColor: "#22264b",
+            pointBackgroundColor: "#e05038",
+            pointBorderColor: "#22264b",
             pointHoverBackgroundColor: "#3fb0ac",
             pointHoverBorderColor: "#e62739",
             data: [85, 90, 70, 60, 65, 80, 62, 95]
