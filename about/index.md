@@ -10,11 +10,13 @@ comments: false
 
 ***Privately, I try to*** `read` ***as much as I could; play*** `basektball`; ***follow*** `San Antonio Spurs` ***and*** `Shantou University Transformers Basketball Team`
 
+<head>
 <style>
     h1 {
     text-align: center;
     }
 </style>
+</head>
 
 <h1>My Technical Skill Sets</h1>
 
