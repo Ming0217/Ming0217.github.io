@@ -10,5 +10,13 @@ comments: false
 
 ***Privately, I try to*** `read` ***as much as I could; play*** `basektball`; ***follow*** `San Antonio Spurs` ***and*** `Shantou University Transformers Basketball Team`
 
+<style>
+    h1 {
+    tex-align: center;
+    }
+</style>
+
+<h1>My Technical Skill Sets</h1>
+
 {% include radar_chart.html %}
 
