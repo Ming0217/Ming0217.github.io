@@ -10,6 +10,7 @@ comments: false
 
 ***Privately, I try to*** `read` ***as much as I could; play*** `basektball`; ***follow*** `San Antonio Spurs` ***and*** `Shantou University Transformers Basketball Team`
 
+<html>
 
 <canvas id="{{ site.data.skills.id }}" height="500" width="500"></canvas>
 
@@ -43,4 +44,6 @@ var myRadarChart = new Chart(ctx, {
     }
 });
 </script>
+
+</html>
 
