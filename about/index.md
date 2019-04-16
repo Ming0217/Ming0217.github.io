@@ -1,5 +1,4 @@
 ---
-layout: page
 title: About Me
 tags: [about]
 date: 2019-02-17
