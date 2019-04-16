@@ -1,6 +1,6 @@
 # skills section data
 
-label: Ability
-id : cs
-aspects: GitHub, Motivation, HTML5, ReactJS, Machine Learing, Python, Sleeping
-percentage: 100, 35, 65, 80, 70, 90, 50
+label: Level
+id : myChart
+aspects: Python, CSS, HTML, JavaScript, SQL, Linux/Shell, Spark, Excel
+percentage: 85, 65, 70, 60, 90, 80, 65, 95
