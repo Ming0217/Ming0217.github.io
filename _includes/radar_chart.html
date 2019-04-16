@@ -15,7 +15,7 @@
     var data = {
         labels: "{{ site.data.skills.aspects }}".split(","),
         datasets: [{
-            label: "{{ site.data.skills.label }}",
+            label: "{{ site.data.skills.percentage }}",
             backgroundColor: "rgba(0,191,255,0.4)",
             borderColor: "#22264b",
             borderCapStyle: "round",
@@ -37,15 +37,7 @@
                 lineArc: false,
                 pointLabels: {fontSize: 14},
             },
-            legend: {display: false},
-            tooltips: {
-                callbacks: {
-                    label: function(tooltipItem, data) {
-                        var label = data.datasets[tooltipItem.datasetIndex].label;
-                        return label;
-                    }
-                }
-            }
+            legend: {display: false}
         }
     });
     </script>
