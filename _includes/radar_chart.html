@@ -7,15 +7,15 @@
 <body>
     <div class='container'>
 
-        <canvas id="myChart" height="500" width="500"></canvas>
+        <canvas id="{{ site.data.skills.id }}" height="500" width="500"></canvas>
     </div>
 
     <script>
-    var ctx = document.getElementById("myChart").getContext('2d');
+    var ctx = document.getElementById("{{ site.data.skills.id }}").getContext('2d');
     var data = {
-        labels: "Python, SQL, HTML, JavaScript, CSS, Linux/Shell, Spark, Excel".split(","),
+        labels: "{{ site.data.skills.aspects }}".split(","),
         datasets: [{
-            label: "Level",
+            label: "{{ site.data.skills.label }}",
             backgroundColor: "rgba(0,191,255,0.4)",
             borderColor: "#22264b",
             borderCapStyle: "round",
@@ -24,7 +24,7 @@
             pointBorderColor: "#fff",
             pointHoverBackgroundColor: "#e05038",
             pointHoverBorderColor: "#e05038",
-            data: [85, 90, 70, 60, 65, 80, 65, 95]
+            data: [{{ site.data.skills.percentage }}]
             }]
     };
     var myRadarChart = new Chart(ctx, {
