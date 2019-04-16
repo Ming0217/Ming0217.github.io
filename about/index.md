@@ -12,11 +12,13 @@ comments: false
 
 <style>
     h1 {
-    tex-align: center;
+    text-align: center;
     }
 </style>
 
 <h1>My Technical Skill Sets</h1>
+
+
 
 {% include radar_chart.html %}
 
