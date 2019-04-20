@@ -13,6 +13,16 @@ feature: https://i.imgur.com/vugeewK.jpg
 comments: true
 ---
 
+
+{% capture images %}
+
+     https://i.imgur.com/iHTdeRQ.png
+     https://i.imgur.com/qxRgbeR.png
+
+{% endcapture %}
+{% include gallery images=images caption="dashboard snapshot for my blog" cols=2 %}
+
+
 ---
      
 Another fun thing that we could do with our blog is to track its web metrics so that we could understand better who's viewing our blog, where they come from and how long they spend on the website etc. <a href="https://analytics.google.com/analytics/web/"><b>Google Analytics</b></a> has made this super easy. If you are also using Github Pages and Jekyll to build your website, you could follow this <a href="https://desiredpersona.com/google-analytics-jekyll/"><b>great article</b></a> to generate Google Analytics tracking code and add it to your website so that you could start tracking different web metrics.
