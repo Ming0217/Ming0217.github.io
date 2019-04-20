@@ -29,6 +29,8 @@ Another fun thing that we could do with our blog is to track its web metrics so 
 
 While Google Analytics tracks a wide range of web metrics and already have some really nice visualizations in place, you may still want to build your own customized dashboard to only track certain metrics that you really care about. This is when another Google product <a href="https://datastudio.google.com/"><b>Data Studio</b></a> come into the picture. Data Studio is a very user-friendly data visualization tool that could import different data sources to create beautiful dashboard. Since Google Analytics naturally integrate with Data Studio, importing data from Gogole Analytics to Data Studio is just effortless, it literally requires a few clicks. Below is the dashboard that I created for this blog:
 
+---
+
 <div class="responsive-inline-frame">
   <div class="responsive-inline-frame-inner">
 
