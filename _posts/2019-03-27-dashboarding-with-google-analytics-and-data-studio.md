@@ -9,16 +9,9 @@ tag:
 - google analytics
 - data studio
 - web analytics
+feature: https://i.imgur.com/vugeewKl.jpg
 comments: true
 ---
-
-{% capture images %}
-
-        https://i.imgur.com/UhM6r5Tl.png
-        https://i.imgur.com/uiDGy5Xl.png
-
-{% endcapture %}
-{% include gallery images=images caption="dashboard snapshot for my blog" cols=2 %}
 
 ---
      
@@ -29,7 +22,7 @@ While Google Analytics tracks a wide range of web metrics and already have some 
 <div class="responsive-inline-frame">
   <div class="responsive-inline-frame-inner">
 
-<iframe width="600" height="550" src="https://datastudio.google.com/embed/reporting/10jN5MHyAf7wXaAcwEGdHXvMyxybv8ivJ/page/8Ifn" frameborder="0" allowfullscreen> </iframe>
+<iframe width="650" height="600" src="https://datastudio.google.com/embed/reporting/10jN5MHyAf7wXaAcwEGdHXvMyxybv8ivJ/page/8Ifn" frameborder="0" allowfullscreen> </iframe>
 
   </div>
 </div>
