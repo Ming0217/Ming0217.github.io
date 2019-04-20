@@ -28,7 +28,8 @@ While Google Analytics tracks a wide range of web metrics and already have some 
 
 
 
-<iframe width="600" height="550" src="https://datastudio.google.com/embed/reporting/10jN5MHyAf7wXaAcwEGdHXvMyxybv8ivJ/page/8Ifn" style="float:middle" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://datastudio.google.com/embed/reporting/10jN5MHyAf7wXaAcwEGdHXvMyxybv8ivJ/page/8Ifn" frameborder="0" allowfullscreen> </iframe>
+
 
 
 
