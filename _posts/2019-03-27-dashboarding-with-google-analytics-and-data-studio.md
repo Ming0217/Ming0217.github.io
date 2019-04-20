@@ -9,7 +9,7 @@ tag:
 - google analytics
 - data studio
 - web analytics
-feature: https://i.imgur.com/vugeewK.jpg
+feature: https://i.imgur.com/vugeewKh.jpg
 comments: true
 ---
 
