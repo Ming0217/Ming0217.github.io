@@ -15,7 +15,7 @@ comments: true
 
 This book is recommended by our CEO Kerry. If you are interested in understanding the first principle of technology (as a general concept, not as a specific technology), this is an incredible book to read. 
 
-The author must be really knowledgeable in order to have the courage to take on such topic: technology is one of those concept that when no one asks you to explain what it is, you seem to know exactly what it is but the moment you need to articulate its definition, you start to struggle (think about time and space as another examples). It is this lack of clear definition and theories for technology that prompted Arthur to write this book, and I would say his attempts in filling those gaps are quite satisfactory. 
+The author must be really knowledgeable in order to have the courage to take on such topic: technology is one of those concept that when no one asks you to explain what it is, you seem to know exactly what it is but the moment you need to articulate its definition, you start to struggle (think about *time* and *space* as another examples). It is this lack of clear definition and theories for technology that prompted Arthur to write this book, and I would say his attempts in filling those gaps are quite satisfactory. 
 
 **What Is Technology?**
 
