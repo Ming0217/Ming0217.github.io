@@ -2,7 +2,7 @@
 layout: post
 title: "The Nature of Technology: What It Is And How It Evolves"
 date: 2019-02-15
-excerpt: "“technoloy is a phenomenon captured and put to use”"
+excerpt: "“Technoloy is a phenomenon captured and put to use”"
 tags: [book reflection, technology, humans, nature, natural effect, evolve]
 comments: true
 ---
