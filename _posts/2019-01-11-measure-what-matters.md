@@ -2,7 +2,7 @@
 layout: post
 title: "Measure What Matters: How Google, Bono, and the Gates Foundation Rock the World with OKRs"
 date: 2019-01-11
-excerpt: "“It almost doesn’t matter what you know, what matters is how you execute.”"
+excerpt: "“It almost doesn’t matter what you know, what matters is how you execute”"
 tags: [book reflection, OKR, objective, key results, John Doerr]
 comments: true
 ---
