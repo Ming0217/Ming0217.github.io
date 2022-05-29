@@ -27,16 +27,27 @@ sass:
 
 Comments:
 #disqus_shortname:   Ming Huang
-  provider:            utterances
+  provider:            giscus
 
 # You must install utterances github app before use.(https://github.com/apps/utterances)
 # Make sure all variables are set properly. Check below link for detail.
 # https://utteranc.es/
-utterances:
+#utterances:
+#  repo:                "Ming0217/Ming0217.github.io"
+#  issue-term:          "pathname"
+#  label:               "Comments"
+#  theme:               "github-light"
+  
+giscus:
   repo:                "Ming0217/Ming0217.github.io"
-  issue-term:          "pathname"
-  label:               "Comments"
-  theme:               "github-light"
+  repo-id:             "MDEwOlJlcG9zaXRvcnkxNzg1MDEyMDE="
+  category:            "General"
+  category-id:         "DIC_kwDOCqO2Uc4CPXCE"
+  mapping:             "pathname"
+  reaction-enabled:    "1"
+  theme:               "light"
+  data-lang:           "en"
+  crossorigin:         "anonymous"  
   
 # Social
 # if you don't have any of social below, comment the line.
