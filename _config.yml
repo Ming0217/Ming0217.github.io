@@ -26,8 +26,18 @@ sass:
   style:            compressed
 
 # Comments
-disqus_shortname:   Ming Huang
+#disqus_shortname:   Ming Huang
+  provider:            utterances
 
+# You must install utterances github app before use.(https://github.com/apps/utterances)
+# Make sure all variables are set properly. Check below link for detail.
+# https://utteranc.es/
+utterances:
+  repo:                "Ming0217/Ming0217.github.io"
+  issue-term:          "pathname"
+  label:               "Comments"
+  theme:               "github-light"
+  
 # Social
 # if you don't have any of social below, comment the line.
 google:
