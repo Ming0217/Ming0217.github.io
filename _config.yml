@@ -12,7 +12,7 @@ url:                https://www.xuminghuang.com/
 # Jekyll
 permalink:          /:title/
 markdown:           kramdown
-remote_theme:       Moon Jekyll Theme
+remote_theme:       TaylanTatli/Moon
 highlighter:        rouge
 kramdown:
   auto_ids:         true
