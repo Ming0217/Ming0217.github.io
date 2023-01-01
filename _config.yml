@@ -85,11 +85,12 @@ linkedin:           ming-huang-a494716a
 #hackernews:        username
 
 # Gems
-gems:
+plugins:
   - jekyll-mentions
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-gist
+  - jekyll-remote-theme
 
 jekyll-mentions:
     base_url: https://github.com
