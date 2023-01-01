@@ -51,10 +51,10 @@ giscus:
   
 # Social
 # if you don't have any of social below, comment the line.
-#google:
+google:
   #plus:            #username
-  #analytics:  
-google_analytics: [G-3J2BFF01TF]
+  analytics:        G-3J2BFF01TF
+#google_analytics: [G-3J2BFF01TF]
   #verify:
   #ad-client:
   #ad-slot:
