@@ -10,6 +10,8 @@
 
 html {
 	@extend %extend1;
+	overflow-y: scroll; /* Always show vertical scrollbar */
+	min-height: 100%;
 }
 body {
 	@extend %extend1;
@@ -19,9 +21,13 @@ body {
 	background-color: $bodycolor;
 	background-position: center center;
 	background-attachment: fixed;
+	min-height: 100vh;
+	position: relative;
 	@media #{$small} {
 	    background-image: none !important;
 		background: $white;
+		// Ensure Vanta.js canvas doesn't interfere
+		canvas { display: none !important; }
 	}
 }
 * {
@@ -219,4 +225,46 @@ header .entry-meta {
         background-blend-mode: multiply;
         background-position: center center;
     }
+}
+
+// Mobile layout fixes
+@media #{$small} {
+	// Prevent horizontal scrolling
+	html, body {
+		overflow-x: hidden;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+	
+	// Ensure all containers fit within viewport
+	.container, .wrapper, .header, main, article, section {
+		max-width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+		padding-left: 1rem;
+		padding-right: 1rem;
+		box-sizing: border-box;
+	}
+	
+	// Fix any elements that might be too wide
+	* {
+		max-width: 100%;
+		box-sizing: border-box;
+	}
+	
+	// Ensure images don't overflow
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+}
+
+// Homepage uses Vanta.js, other pages use static background
+// Hide static background on homepage immediately
+@media only screen and (min-width: 48em) {
+	html.home body,
+	body.home {
+		background-image: none !important;
+	}
 }
