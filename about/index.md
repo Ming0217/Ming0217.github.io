@@ -10,6 +10,13 @@ comments: false
 
 ***Privately, I try to*** `read` ***as much as I could; play*** `basektball`; ***follow*** `San Antonio Spurs` ***and*** `Shantou University Transformers Basketball Team`
 
+***Recently, I've been focusing on the following areas:*** 
+`Digital Marketing`
+`Programmatic Advertising`
+`API`
+`Gen AI`
+`Value Investing`
+
 <head>
 <style>
     h1 {
