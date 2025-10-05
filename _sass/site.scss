@@ -26,8 +26,8 @@ body {
 	@media #{$small} {
 	    background-image: none !important;
 		background: $white;
-		// Ensure Vanta.js canvas doesn't interfere
-		canvas { display: none !important; }
+		// Ensure Vanta.js canvas doesn't interfere (but keep radar chart)
+		body > canvas { display: none !important; }
 	}
 }
 * {
