@@ -18,40 +18,34 @@ comments: true
 
 The problem started simple: I had no good way to track my reading and notes in one place.
 
-My highlights lived in one app. My reflections in another. Books I'd finished were scattered across different reading apps, and any notes I'd taken were spread across whichever note-taking tool I happened to be using at the time. Every few months I'd try a new combination — a different app, a new workflow — but nothing quite fit how I actually read and think.
+My highlights lived in my Kindle device or its app. My reflections in another. Books I'd finished were scattered across different reading apps, and any notes I'd taken were spread across whichever note-taking tool I happened to be using at the time. Every few months I'd try a new combination — a different app, a new workflow — but nothing quite fit how I actually read and think.
 
-The frustrating part was not the fragmentation itself. It was that no existing tool was willing to solve it the way I wanted. Most reading apps are built around their own ecosystem. Most note-taking apps are too general to feel like a reading companion. The ones that tried to bridge both were either too opinionated or too limited.
+The frustrating part was not only the fragmentation itself. It was that no existing tool was willing and able to solve it the way I wanted. 
 
 So I decided to build my own.
 
-That decision would have felt impractical a few years ago. But with vibe coding — using AI heavily throughout the development process — the barrier dropped enough that building a personal tool tailored exactly to my needs felt genuinely achievable. That was the starting point for **Epic Stoicism**. And I just kept iterating from there.
+That decision would have felt impractical a few months ago. But as the foundation models getting better and better at coding, the barrier dropped enough that building a personal tool tailored exactly to my needs felt genuinely achievable. That was the starting point for **Epic Stoicism**. And I just kept iterating from there.
 
 Now Epic Stoicism has become an AI-powered reading productivity app that turns books, highlights, and notes into a living knowledge base. I can use LLM to interact with all the books, highlights as well as notes that I made, it truly turns the static information into something that I can continiously revisit, connect and actually use.
 
 ## Building with vibe coding
 
-I should be upfront about something: I had very limited front-end and web development knowledge when I started this project. I had never built and deployed a web app to production before. By most conventional measures, building and shipping a full-stack web app to real users would have been out of reach.
+I should be upfront about something: I had very limited front-end and web development knowledge when I started this project. I had never built and deployed a web app to production before. I have lots of product and feature ideas, but building and shipping a full-stack web app to real users would have been out of reach.
 
-Vibe coding changed that calculus entirely.
+Vibe coding changed that entirely.
 
-Whenever I hit something I did not understand — a deployment config, a front-end pattern, a framework quirk — I turned to the LLM and just asked. Not just high-level questions, but granular, specific ones: *why is this failing*, *what does this error mean*, *how should I structure this*, *what am I missing*. The single biggest takeaway from this project is that you should never let any assumption about what you "should" already know stop you from asking. Most of the foundational LLMs are remarkably good at meeting you exactly where you are.
+Whenever I hit something I did not understand — an environment parameter during deployment, user authentication and authorization workflow, various caching strategies to make the app perform better — I turned to the LLM and just asked. Not just high-level questions, but granular, specific ones: *why is this failing*, *what does this error mean*, *how should I structure this*, *what am I missing*. The single biggest takeaway from this project is that you should never let any assumption about what you "should" already know stop you from asking. Most of the foundational LLMs are remarkably good at meeting you exactly where you are.
 
 That said, I noticed something important: having a solid programming foundation made me significantly more effective at vibe coding. Not because it let me write more code myself, but because it helped me ask better questions. Knowing how to think about a problem — how to decompose it, what to be suspicious of, what tradeoffs to name — made my prompts clearer and my conversations with the LLM more productive. The foundation is not a substitute for the AI, and the AI is not a substitute for the foundation. They compound each other.
 
 The result was a fully functioning app, deployed to production, used by people other than myself. Something I genuinely could not have shipped without vibe coding.
 
-One thing that surprised me was the cost: zero. With guidance from the LLM on how to set everything up, I was able to deploy the entire stack for free — Vercel for hosting, Supabase for the database, and Gemini for the LLM. All of them have generous free tiers that are more than enough to get a personal project to production. The barrier was never really money. It was knowing where to look and how to put the pieces together.
+Another thing that surprised me was the cost: zero. With guidance from the LLM on how to set everything up, I was able to deploy the entire stack for free — Vercel for hosting, Supabase for the database, and Gemini for the LLM. All of them have generous free tiers that are more than enough to get a personal project to production. The barrier was never really money. It was knowing where to look and how to put the pieces together.
 
-But the experience also taught me something important: vibe coding is great for speed, but it is not a substitute for judgment.
-
-AI can help generate code, scaffold features, and unblock implementation details. What it does not do well on its own is decide:
-
-- what actually matters
-- what the right product abstraction is
-- where the boundaries of the system should be
-- which shortcuts will quietly turn into technical debt later
-
-So for me, vibe coding has been most useful as an accelerator, not an autopilot.
+{% capture images %}
+  https://i.imgur.com/OnnBIXo.jpg
+{% endcapture %}
+{% include gallery images=images caption="Epic Stoicism App" cols=1 %}
 
 ## From stored notes to queryable insight
 
@@ -108,22 +102,23 @@ I think this points to something broader: as vibe coding becomes more accessible
 
 A few lessons stood out from building this:
 
-### 1. Reading becomes more valuable when it is queryable
-A highlight is not that useful if it just sits in a list forever. It becomes much more valuable when you can ask questions across your books and notes.
+### Reading becomes more valuable when it is queryable
+A highlight or note is not that useful if it just sits somewhere forever. It becomes much more valuable when you can ask questions across them.
 
-### 2. AI is most useful when it increases leverage on existing knowledge
+### AI is most useful when it increases leverage on existing knowledge
 The best use of AI here is not just generating more text. It is helping you retrieve, connect, and reuse what you already know.
 
-### 3. Never let assumptions stop you from asking
+### Never let assumptions stop you from asking
 The LLM will meet you where you are. The biggest barrier to effective vibe coding is self-censorship — assuming a question is too basic or that you should already know the answer. You don't have to. Just ask.
 
-### 4. The best software you will ever use might be something you build for yourself
+### The best software you will ever use might be something you build for yourself
 Commercial apps optimize for the majority. Vibe coding lets you build for an audience of one — and that changes what is possible. Features that would never make a product roadmap are just one conversation away.
 
 ## Closing thought
 
 I built Epic Stoicism because I wanted reading to compound, not just accumulate.
 
-If you want to check it out: **Epic Stoicism:** https://epicstoicism.com
+If you want to check it out: **[Epic Stoicism](https://epicstoicism.com)**
 
-And you can see the books that I read and the notes that I made here: https://epicstoicism.com/profile/ming
+And you can see the books that I read and the notes that I made here: [epicstoicism.com/profile/ming](https://epicstoicism.com/profile/ming)
+
