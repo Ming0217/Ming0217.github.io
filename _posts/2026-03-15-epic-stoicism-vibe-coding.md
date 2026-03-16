@@ -43,7 +43,7 @@ The result was a fully functioning app, deployed to production, used by people o
 Another thing that surprised me was the cost: zero. With guidance from the LLM on how to set everything up, I was able to deploy the entire stack for free — Vercel for hosting, Supabase for the database, and Gemini for the LLM. All of them have generous free tiers that are more than enough to get a personal project to production. The barrier was never really money. It was knowing where to look and how to put the pieces together.
 
 {% capture images %}
-  https://i.imgur.com/OnnBIXo.jpg
+  https://i.imgur.com/XcU8pKX.jpg 
 {% endcapture %}
 {% include gallery images=images caption="Epic Stoicism App" cols=1 %}
 
