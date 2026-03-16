@@ -18,15 +18,15 @@ comments: true
 
 The problem started simple: I had no good way to track my reading and notes in one place.
 
-My highlights lived in my Kindle device or its app. My reflections in another. Books I'd finished were scattered across different reading apps, and any notes I'd taken were spread across whichever note-taking tool I happened to be using at the time. Every few months I'd try a new combination — a different app, a new workflow — but nothing quite fit how I actually read and think.
+My highlights lived in my Kindle device or its app. My reflections on my blog. Books I'd finished were scattered across different reading apps, and any notes I'd taken were spread across whichever note-taking tool I happened to be using at the time. Every few months I'd try a new combination — a different app, a new workflow — but nothing quite fit how I actually read and think.
 
 The frustrating part was not only the fragmentation itself. It was that no existing tool was willing and able to solve it the way I wanted. 
 
 So I decided to build my own.
 
-That decision would have felt impractical a few months ago. But as the foundation models getting better and better at coding, the barrier dropped enough that building a personal tool tailored exactly to my needs felt genuinely achievable. That was the starting point for **Epic Stoicism**. And I just kept iterating from there.
+That decision would have felt impossible a few months ago. But as the foundation models getting better and better at coding, the barrier dropped enough that building a personal tool tailored exactly to my needs felt genuinely achievable. That was the starting point for **Epic Stoicism**.
 
-Now Epic Stoicism has become an AI-powered reading productivity app that turns books, highlights, and notes into a living knowledge base. I can use LLM to interact with all the books, highlights as well as notes that I made, it truly turns the static information into something that I can continiously revisit, connect and actually use.
+After a few months of iterations, Epic Stoicism has now become an AI-powered reading productivity app that turns books, highlights, and notes into a living knowledge base. I can use LLM to interact with all the books, highlights as well as notes that I made, it truly turns the static information into something that I can continuously revisit, connect and actually use.
 
 ## Building with vibe coding
 
