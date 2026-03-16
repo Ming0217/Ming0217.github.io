@@ -227,7 +227,9 @@ header .entry-meta {
 }
 
 .social-share {
-	display: block;
+	display: flex;
+	flex-wrap: nowrap;
+	gap: 0.5rem;
 	margin-top: 1rem;
 	width: 30%;
 	float: right;
