@@ -2,7 +2,8 @@
 layout: post
 title: "Start-Up Nation: The Story of Israel's Economic Miracle"
 date: 2019-01-09
-excerpt: "“This was a matter of necessity, rather than mere preference or convenience”"
+excerpt: “”This was a matter of necessity, rather than mere preference or convenience””
+description: “Reflections on Start-Up Nation — the stories of Shimon Peres, Dov Frohman, and Intel Israel that show how necessity and culture unlock extraordinary human potential.”
 tags: [book reflection, start-up, Israel, Shimon Peres]
 comments: true
 ---

@@ -3,6 +3,7 @@ layout: post
 title:  "Dashboarding My Blog with Google Analytics and Data Studio"
 date:   2019-03-27
 excerpt: "Google Analytics + Data Studio = Beautiful Dashboard for Web Analytics"
+description: "How to connect Google Analytics to Data Studio and build a custom web analytics dashboard for a Jekyll blog on GitHub Pages."
 project: true
 tag:
 - dashboard 

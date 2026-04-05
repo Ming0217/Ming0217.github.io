@@ -2,7 +2,8 @@
 layout: post
 title: "Ego Is The Enemy"
 date: 2019-01-07
-excerpt: "“Think big, but live and act small”"
+excerpt: “”Think big, but live and act small””
+description: “My reflections on Ryan Holiday's Ego Is The Enemy — on restraining ego, John Wooden's internal definition of success, and thinking big while acting small.”
 tags: [book reflection, ego, Ryan Holiday, success]
 comments: true
 ---

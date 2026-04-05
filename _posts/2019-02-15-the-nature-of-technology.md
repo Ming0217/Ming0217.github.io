@@ -2,7 +2,8 @@
 layout: post
 title: "The Nature of Technology: What It Is And How It Evolves"
 date: 2019-02-15
-excerpt: "“Technology is a phenomenon captured and put to use”"
+excerpt: “”Technology is a phenomenon captured and put to use””
+description: “Reflections on W. Brian Arthur's The Nature of Technology — what technology fundamentally is, how invention works, and how technology evolves through combination.”
 tags: [book reflection, technology, humans, nature, natural effect, evolve]
 comments: true
 ---
