@@ -2,7 +2,8 @@
 layout: post
 title: "How Will You Measure Your Life?"
 date: 2019-01-04
-excerpt: "“Theories are statements of what causes things to happen, and why”"
+excerpt: “”Theories are statements of what causes things to happen, and why””
+description: “Reflections on Christensen's theory of disruptive innovation, resource allocation, and how Apple's fall illustrates what happens when strategy and execution diverge.”
 tags: [book reflection, theory, disruptive innovation]
 comments: true
 ---

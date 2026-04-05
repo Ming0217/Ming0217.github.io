@@ -3,6 +3,7 @@ layout: post
 title:  "WordCloud Visualization for Books that I Read"
 date:   2019-02-01
 excerpt: "visualize the most frequent words used by the authors"
+description: "How to generate custom word cloud visualizations in Python — controlling color themes, shapes, fonts, and stopwords using the open source wordcloud library."
 project: true
 tag:
 - wordcloud 

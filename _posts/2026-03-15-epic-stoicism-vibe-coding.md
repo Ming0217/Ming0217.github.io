@@ -3,6 +3,7 @@ layout: post
 title: "Building Epic Stoicism with Vibe Coding"
 date: 2026-03-15
 excerpt: "How vibe coding made it possible to build and ship a personal reading app — without prior web dev experience"
+description: "How I built and shipped Epic Stoicism — an AI-powered reading app — using vibe coding, with no prior web dev experience and zero infrastructure cost."
 project: true
 tag:
 - vibe coding
