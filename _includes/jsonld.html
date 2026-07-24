@@ -1,0 +1,29 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "name": "{{ site.title }}",
+      "url": "{{ site.url }}",
+      "description": "{{ site.description }}",
+      "author": {
+        "@id": "{{ site.url }}/#person"
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "{{ site.url }}/#person",
+      "name": "{{ site.author.name }}",
+      "url": "{{ site.url }}",
+      "email": "{{ site.author.email }}",
+      "sameAs": [
+        "{{ site.author.linkedin }}",
+        "{{ site.author.github }}"
+      ],
+      "jobTitle": "Technology Professional",
+      "knowsAbout": ["Digital Marketing", "Programmatic Advertising", "API Development", "Generative AI", "Value Investing"]
+    }
+  ]
+}
+</script>

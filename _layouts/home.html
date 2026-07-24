@@ -5,10 +5,9 @@ layout: compress
 <!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
 <!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9"><![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"><!--<![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
     {% include head.html %}
-    <meta name="google-site-verification" content="M-4cIOaduskhxHLCmbEJNZeJ0FL5XmTHGK7pGckamKI" />
 </head>
 <body>
     {% include nav.html %}
@@ -17,19 +16,19 @@ layout: compress
         <div class="container animated fadeIn">
             <div class="row">
                     <a href="{{ site.url }}">
-                        <img src="{{ site.logo }}" class="img-circle zoombtn animated rotateIn">
+                        <img src="{{ site.logo }}" class="img-circle zoombtn animated rotateIn" alt="{{ site.author.name }}">
                     </a>
-                    <h3 class="title">
-                        <a class="zoombtn" href="{{ site.url }}">
-                        	<p style="font-size:1.2rem;font-weight:300">{{ site.title }}</p>
+                    <h1 class="title" style="margin:0.5rem 0">
+                        <a class="zoombtn" href="{{ site.url }}" style="text-decoration:none">
+                        	<span style="font-size:1.2rem;font-weight:300">{{ site.title }}</span>
 			            </a>
-                    </h3>
+                    </h1>
                     <hr class="hr-line">
-                    <h3 class="title">
-                        <a href="{{ site.url }}">
-                        	<p style="font-size:1rem;font-weight:300">{{ site.bio }}</p>
+                    <h2 class="title" style="margin:0.5rem 0">
+                        <a href="{{ site.url }}" style="text-decoration:none">
+                        	<span style="font-size:1rem;font-weight:300">{{ site.bio }}</span>
 			            </a>
-                    </h3>
+                    </h2>
                     {% include social-links.html %}
                   <hr class="hr-line">
                   <h3 class="title">
